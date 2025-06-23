@@ -101,22 +101,24 @@ function App() {
 {/* Animated Date Info */}
 <div className="event-info slide-up pt-5">
   <div className="date-text">
-  <span className="event-date">
-  <span className="date-start">09</span>
-  <span className="date-separator">&nbsp;&nbsp;</span>
-  <span className="date-end">11</span>
-</span>
-
-    <span className="event-location">September 2025 | Exhibition World Bahrain</span>
+    <div className="event-date">
+      09 <span className="date-separator">-</span> 11 September 2025
+    </div>
+    <span className="event-location">Exhibition World Bahrain</span>
   </div>
 
   <div className="underline"></div>
 
-  <div className="logo-row3 pt-4">
-    <p className="enquiry-label">For any enquiry, please contact at</p>
-    <p className="enquiry-label">info@gweccc.com</p>
+  <div className="coming-soon-text">Coming Soon</div>
+
+  <div className="logo-row3 py-3">
+    <p className="enquiry-label">
+      For any enquiry, please contact at <strong>info@gweccc.com</strong>
+    </p>
   </div>
 </div>
+
+
 
 
 
