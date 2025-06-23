@@ -1,11 +1,12 @@
 import './App.css';
   const transparentLogo = true;
+
 function App() {
   return (
 <>
 
-<div className='container'>
-  <div className="coming-soon mx-5">
+<div className='container-fluid'>
+  <div className="container coming-soon mx-auto">
         <div className="nav_container pt-5">
           {/* Left Logo */}
           <div className="nav_left">
@@ -53,6 +54,7 @@ function App() {
                 <img
                   src="https://gweccc.com/assets/logo/UNEP-02.png"
                   alt="UNEP"
+                  className='unep-logo'
                 />
                      <div className="divider"></div>
               </div>
@@ -70,6 +72,26 @@ function App() {
                 alt="Aramco"
                 className='aramco-logo'
               />
+
+              
+            </div>
+            
+ 
+                     <div className="divider-ne"></div>
+
+                <div className="logo_block">
+              <p className="label">Organising Partner</p>
+              <img
+                src={
+                  transparentLogo
+                    ? 'https://gweccc.com/assets/logo/NEXUS_EVENTS_WHITE.png'
+                    : 'https://gweccc.com/assets/logo/NEXUS_EVENTS_WHITE.png'
+                }
+                alt="Bahrain"
+                className='ne-logo'
+
+              />
+              
             </div>
           </div>
         </div>
@@ -77,31 +99,26 @@ function App() {
         {/* Date and Event Info */}
 
 {/* Animated Date Info */}
-<div className="event-info slide-up">
-<div className="date-timeline">
-  <div className="timeline-box">
-    <div className="day">09</div>
-    <div className="month">SEP 2025</div>
-  </div>
+<div className="event-info slide-up pt-5">
+  <div className="date-text">
+  <span className="event-date">
+  <span className="date-start">09</span>
+  <span className="date-separator">&nbsp;&nbsp;</span>
+  <span className="date-end">11</span>
+</span>
 
-  <div className="timeline-line">
-    <div className="dot"></div>
-    <div className="line"></div>
-    <div className="dot"></div>
+    <span className="event-location">September 2025 | Exhibition World Bahrain</span>
   </div>
-
-  <div className="timeline-box">
-    <div className="day">11</div>
-    <div className="month">SEP 2025</div>
-  </div>
-</div>
 
   <div className="underline"></div>
-  <h4 className='text-uppercase pt-3'>September 2025 &nbsp; | &nbsp; Exhibition World Bahrain</h4>
+
   <div className="logo-row3 pt-4">
-    <p className='logo-row2'>info@gweccc.com</p>
+    <p className="enquiry-label">For any enquiry, please contact at</p>
+    <p className="logo-row2">info@gweccc.com</p>
   </div>
 </div>
+
+
 
       </div>
   </div>
