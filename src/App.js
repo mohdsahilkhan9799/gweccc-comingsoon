@@ -114,7 +114,7 @@ function App() {
 
   <div className="logo-row3 pt-4">
     <p className="enquiry-label">For any enquiry, please contact at</p>
-    <p className="logo-row2">info@gweccc.com</p>
+    <p className="enquiry-label">info@gweccc.com</p>
   </div>
 </div>
 
