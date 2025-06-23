@@ -557,10 +557,8 @@ h4 {
 
 .coming-soon-text {
   font-size: 5rem;
-  color: #93e9f9; /* light cyan */
-  background: linear-gradient(to right, #ccffff, #ccffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #fff; /* light cyan */
+ font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: 10px auto;
