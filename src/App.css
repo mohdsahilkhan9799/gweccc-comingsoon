@@ -557,27 +557,18 @@ h4 {
 
 .coming-soon-text {
   font-size: 5rem;
-  color: #fff;
-  text-shadow: 
-     #fff, #93b9ca;
-  animation: flameFlicker 1s infinite ease-in-out;
+  color: #93e9f9; /* light cyan */
+  background: linear-gradient(to right, #ccffff, #ccffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: 10px auto;
 }
 
-@keyframes flameFlicker {
-  0%, 100% {
-    text-shadow: 
-     #fff, #93b9ca;
-    transform: scale(1);
-  }
-  50% {
-    text-shadow: 
-   #fff, #93b9ca;
-    transform: scale(1.02);
-  }
-}
+
+
+
 
 
 
