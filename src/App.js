@@ -37,7 +37,7 @@ function App() {
             <div className="logo_block">
               <p className="label">Exclusive Hosts</p>
               <div className="flex_row">
-                     <div className="divider"></div>
+                     <div className="divider1"></div>
 
                 <img
                   src={
@@ -56,7 +56,7 @@ function App() {
                   alt="UNEP"
                   className='unep-logo'
                 />
-                     <div className="divider"></div>
+                     <div className="divider1"></div>
               </div>
             </div>
 
