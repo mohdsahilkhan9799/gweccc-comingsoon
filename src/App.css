@@ -201,14 +201,14 @@ h4 {
 
 .nav_right {
   display: flex;
-  gap: 23px;
+  gap: 22px;
   align-items: flex-start;
 }
 
 .logo_block {
   text-align: center;
   color: white;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   font-family:'Montserrat', sans-serif !important;
 
@@ -319,6 +319,15 @@ h4 {
     display: flex;
     gap: 14px;
     align-items: flex-start;
+}
+
+.logo_block {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  font-family:'Montserrat', sans-serif !important;
+
 }
 }
 
