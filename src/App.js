@@ -5,9 +5,9 @@ function App() {
   return (
 <>
 
-<div className='container-fluid'>
-  <div className="container coming-soon mx-auto">
-        <div className="nav_container pt-5">
+<div className='container-fluid '>
+  <div className="container coming-soon mx-auto ">
+        <div className="nav_container pt-5 ">
           {/* Left Logo */}
           <div className="nav_left">
             <a href="/">
@@ -109,11 +109,11 @@ function App() {
 
   <div className="underline"></div>
 
-  <div className="coming-soon-text">Coming Soon</div>
+  <div className="coming-soon-text">Launching Soon</div>
 
   <div className="logo-row3 py-3">
     <p className="enquiry-label">
-      For any enquiry, please contact at <strong>info@gweccc.com</strong>
+      For any inquiries, please contact <strong>info@gweccc.com</strong>
     </p>
   </div>
 </div>
