@@ -433,7 +433,8 @@ h4 {
 
 .event-info {
   animation: slideUp 1.3s ease-out;
-  margin-top: 20px;
+  margin-top: 80px;
+ 
 }
 
 
@@ -527,6 +528,12 @@ h4 {
   opacity: 0.9;
   /* margin-bottom: 8px; */
   font-family: 'Montserrat', sans-serif;
+}
+
+.event-info {
+  animation: slideUp 1.3s ease-out;
+  margin-top: 40px;
+ 
 }
 }
 
