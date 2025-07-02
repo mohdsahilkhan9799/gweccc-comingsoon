@@ -223,6 +223,7 @@ h4 {
 .aramco-logo{
   height:40px !important;
  margin-top: 35px !important;
+ margin-right: 10px !important;
 }
 .unep-logo{
   height:87px !important;
@@ -602,7 +603,7 @@ h4 {
 
 
 .coming-soon-text {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: #fff; /* light cyan */
  font-weight: 600;
   font-family: 'Montserrat', sans-serif;
